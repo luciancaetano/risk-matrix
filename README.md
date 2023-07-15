@@ -1,76 +1,43 @@
-# Fast and scalable React Typescript Starter
-## Features
-- [x] React
-- [x] Typescript
-- [x] scalable
-
-# important package.json scripts
-- `start` starts the development server
-- `build` compiles the application
-- `lint` runs the linter
-- `stylelint` runs the style linter
-- `test` runs the tests
-
-## Presentation
-This project is a collection of all the experience practiced with react and other frameworks like angular, vue, etc.
-
-## Paths and alias
-The paths and alias are configured in the `tsconfig.json` file.
-
-| Path |  Alias | Description  |
-|---|---|---|
-| `src/app`  | -  | Application entry point  |
-| `src/locale`  | - | Internationalization files  |
-| `src/styles`  | `@styles/*`  | Global styles  |
-| `src/components/elements`  | `@components/elements/*`  | Generic and simple components like buttons, inputs, etc.  |
-| `src/components/partials`  | `@components/partials/*`  | More Complex ui related components  |
-| `src/components/views`  | `@components/views/*`  | View or Screens  |
-| `src/components/layouts`  | `@components/layouts/*`  | Components used to organize the application's layout  |
-| `src/hooks`  | `@hooks/*`  | Custom hooks  |
-| `src/utils`  | `@utils/*`  | Custom utilities  |
-| `src/config`  | `@config/*`  | Configuration files for the application  |
-| `src/media`  | `@media/*`  | Media files such as images, videos, etc.  |
-
-# Codegen
-Just run the command for more information
-```bash
-./codegen -h # for *nix
-codegen -h # for windows
+# How to Run
 ```
-```sh
-Usage: codegen [options] <type> <name>
-
-Create a new component
-
-Arguments:
-  type             Type of component to create [element, partial, view, layout]
-  name             Name of component to create
-
-Options:
-  -d, --dir <dir>  Directory to create component in
-  -h, --help       display help for command
+npm install
+npm run dev
 ```
-### Generated Component Code Structure
 
-```bash
-├── src
-│   ├── components
-│   │   ├── [type]
-│   │   │   ├── [name]
-│   │   │   │   ├── [name].tsx
-│   │   │   │   ├── [name].spec.tsx
-│   │   │   │   ├── [name].module.scss
-│   │   │   │   ├── [name].types.ts
-│   │   │   │   ├── [name].view-model.ts
-│   │   │   │   ├── [name].view-model.spec.ts
-│   │   │   │   └── index.ts
-```
-- `[type]` is the type of component, it can be `element`, `partial`, `view` or `layout`.
-- `[name]` is the name of the component.
-- `[name].tsx` is the component file, or component view.
-- `[name].spec.tsx` is the component test file.
-- `[name].module.scss` is the component styles file.
-- `[name].types.ts` is the component types file.
-- `[name].view-model.ts` is the component view model file.
-- `[name].view-model.spec.ts ` is the component view model test file.
-- `index.ts` is the component index file, the component is exported as default and the component types are exported as named export.
+# Risk Matrix
+These levels of effort and complexity are used to assess the difficulty and requirements of a task or project, providing a better understanding of the necessary resources, time, and skills needed to achieve the desired goals.
+
+|  |  |  |  |  |
+|----------|----------|----------|----------|----------|
+| 5        | 10       | 15       | 20       | 25       |
+| 4        | 8        | 12       | 16       | 20       |
+| 3        | 6        | 9        | 12       | 15       |
+| 2        | 4        | 6        | 8        | 10       |
+| 1        | 2        | 3        | 4        | 5        |
+
+[UP] Complexity
+[RIght] Effort
+
+### Effort Levels
+| Effort Level | Effort       | Explanation                                                                                     |
+|--------------|--------------|-------------------------------------------------------------------------------------------------|
+| 1            | Very Low     | At this level, the task requires minimal effort. It can be completed quickly without requiring many additional resources or effort.          |
+| 2            | Low          | At this level, the task requires moderate but accessible effort. Although it may take some time and resources, it is not particularly difficult or time-consuming.                                      |
+| 3            | Moderate     | At this level, the task requires considerable effort. Significant time and additional resources may be needed to successfully complete the task. Some specific skills or knowledge may be required.        |
+| 4            | High         | At this level, the task demands significant effort. It can be challenging and may require a substantial investment of time, resources, and specialized skills. Careful planning and strategic approaches may be necessary.                    |
+| 5            | Very High    | At the highest level of effort, the task represents an immense challenge. It requires intense, dedicated, and sustained effort over time. Coordinating teams, utilizing advanced resources, and overcoming complex obstacles may be involved.                            |
+
+### Complexity Levels
+
+| Complexity Level | Complexity   | Explanation                                                                                     |
+|------------------|--------------|-------------------------------------------------------------------------------------------------|
+| 1                | Very Low     | At this level, the complexity of the task is minimal. It is straightforward to understand and execute, generally not requiring specialized knowledge.   |
+| 2                | Low          | At this level, the complexity is slightly higher than the previous level but still relatively simple to approach. It may require some basic understanding but is not highly challenging.                    |
+| 3                | Moderate     | At this level, the complexity of the task is moderate. It may require a certain level of experience or specialized knowledge to successfully complete. It may involve multiple steps or variables.   |
+| 4                | High         | At this level, the complexity is high, presenting a significant challenge. It requires a deep understanding of the subject matter, advanced technical skills, or a detailed approach to address the task. |
+| 5                | Very High    | At the highest level of complexity, the task is extremely challenging. It may involve a combination of complex factors, in-depth analysis, and solving difficult problems. Specialized expertise and advanced knowledge may be required. |
+
+You can copy and use these separate markdown tables for effort and complexity in your documents or presentations.
+
+
+# This project is created using my [base-react-typescript-project](https://github.com/luciancaetano/base-react-typescript-project)
