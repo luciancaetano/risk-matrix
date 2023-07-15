@@ -3,6 +3,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { complexityExplanationData, effortExplanationData, riskTable } from '@utils/constants';
 import RiskCalculator from '@components/elements/RiskCalculator';
+import RiskTableLegend from '@components/elements/RiskTableLegend';
 import { IoRiskTableProps, Risk } from './IoRiskTable.types';
 import styles from './IoRiskTable.module.scss';
 import useIoRiskTableViewModel from './IoRiskTable.view-model';
@@ -19,7 +20,7 @@ function IoRiskTable(props: IoRiskTableProps) {
   } = useIoRiskTableViewModel(props);
 
   return (
-    <div className={clsx('IoRiskTable bp5-card bp5-elevation-2', styles.ioRiskTable)}>
+    <div className={clsx('IoRiskTable', styles.ioRiskTable)}>
       <h3 className={clsx('bp5-heading', styles.textCenter)}>Risk matrix by effort and complexity</h3>
       <div className={styles.row}>
         <div className={styles.rowMatrix}>
@@ -55,6 +56,9 @@ function IoRiskTable(props: IoRiskTableProps) {
               ))}
             </tbody>
           </table>
+        </div>
+        <div className={clsx(styles.rowMatrix, styles.rowMatrixEnd)}>
+          <RiskTableLegend />
         </div>
         <div className={styles.rowCalculator}>
           <RiskCalculator

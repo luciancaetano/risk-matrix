@@ -1,0 +1,21 @@
+.risk-table-legend {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 2rem;
+    cursor: default !important;
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: .1rem 0;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            height: .5rem;
+            min-height: auto !important;
+            cursor: default !important;
+        }
+    }
+}
