@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@components/partials/*": [
+                "src/app/components/partials/*"
+            ],
+            "@config/*": [
+                "src/app/config/*"
+            ],
+            "@app/types/*": [
+                "src/app/types/*"
+            ],
+            "@media/*": [
+                "src/media/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+            "@hooks/*": [
+                "src/app/hooks/*"
+            ],
+            "@components/elements/*": [
+                "src/app/components/elements/*"
+            ],
+            "@components/layouts/*": [
+                "src/app/components/layouts/*"
+            ],
+            "@components/views/*": [
+                "src/app/components/views/*"
+            ],
+            "@utils/*": [
+                "src/app/utils/*"
+            ]
+        }
+    }
+}

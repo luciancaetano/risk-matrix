@@ -1,0 +1,77 @@
+@import '~@blueprintjs/core/lib/scss/variables';
+
+.io-risk-table {
+    font-display: flex;
+    flex: 1;
+
+    &__border-collapse {
+        border-collapse: collapse;
+    }
+
+    &__risk {
+        width  : 5rem;
+        text-align : center !important;
+        cursor     : pointer;
+        user-select: none;
+        border-radius: 0 !important;
+        border: 1px solid #fff !important;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.spacer {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 2rem;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    width: 100%;
+
+    &__matrix {
+        display: flex;
+        border-right: 1px solid rgb(17 20 24 / 15%);
+        padding-right: 2rem;
+        margin-right: 2rem;
+    }
+
+    &__calculator {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        border: 1px solid #fff !important;
+    }
+
+    @media (width <= 768px) {
+        flex-wrap: wrap;
+
+        &__matrix {
+          border-right: none;
+          padding-right: 0;
+          margin-right: 0;
+          margin-bottom: 1rem;
+        }
+
+        &__calculator {
+          border: none;
+          margin-bottom: 1rem;
+        }
+      }
+}
+
+.fade {
+    opacity: .5;
+}
+
+.td {
+    padding: 0 !important;
+    margin: 0 !important;
+}
