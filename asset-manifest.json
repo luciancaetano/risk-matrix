@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/risk-matrix/static/css/main.c3d57c61.css",
-    "main.js": "/risk-matrix/static/js/main.723792aa.js",
+    "main.css": "/risk-matrix/static/css/main.7a39dd48.css",
+    "main.js": "/risk-matrix/static/js/main.44b4a187.js",
     "static/js/670.d76e5cc5.chunk.js": "/risk-matrix/static/js/670.d76e5cc5.chunk.js",
     "static/js/78.8aed4361.chunk.js": "/risk-matrix/static/js/78.8aed4361.chunk.js",
     "blueprint-icons-all-paths.js": "/risk-matrix/static/js/blueprint-icons-all-paths.a01d8d78.chunk.js",
@@ -18,8 +18,8 @@
     "static/media/blueprint-icons-20.woff2?": "/risk-matrix/static/media/blueprint-icons-20.c20dc60373b0a5fbfa7f.woff2",
     "static/media/blueprint-icons-16.woff2?": "/risk-matrix/static/media/blueprint-icons-16.5d3be7e91ef0bd98ba43.woff2",
     "index.html": "/risk-matrix/index.html",
-    "main.c3d57c61.css.map": "/risk-matrix/static/css/main.c3d57c61.css.map",
-    "main.723792aa.js.map": "/risk-matrix/static/js/main.723792aa.js.map",
+    "main.7a39dd48.css.map": "/risk-matrix/static/css/main.7a39dd48.css.map",
+    "main.44b4a187.js.map": "/risk-matrix/static/js/main.44b4a187.js.map",
     "670.d76e5cc5.chunk.js.map": "/risk-matrix/static/js/670.d76e5cc5.chunk.js.map",
     "78.8aed4361.chunk.js.map": "/risk-matrix/static/js/78.8aed4361.chunk.js.map",
     "blueprint-icons-all-paths.a01d8d78.chunk.js.map": "/risk-matrix/static/js/blueprint-icons-all-paths.a01d8d78.chunk.js.map",
@@ -27,7 +27,7 @@
     "blueprint-icons-20px-paths.a5cada37.chunk.js.map": "/risk-matrix/static/js/blueprint-icons-20px-paths.a5cada37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3d57c61.css",
-    "static/js/main.723792aa.js"
+    "static/css/main.7a39dd48.css",
+    "static/js/main.44b4a187.js"
   ]
 }
