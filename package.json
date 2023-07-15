@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "homepage": "https://luciancaetano.github.io/risk-matrix",
   "author": {
     "name": "Lucian Caetano",
     "url": "https://github.com/luciancaetano"
@@ -18,7 +19,8 @@
     "lint": "eslint --fix ./src --ext .tsx --ext .ts",
     "stylelint": "stylelint \"src/**/*.scss\" --fix",
     "test": "jest --coverage",
-    "deploy-gh-pages": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@blueprintjs/core": "^5.1.1",
